@@ -7,7 +7,7 @@
 #include<DallasTemperature.h>
 
 const char* ssid = "747_2.4GHz";
-const char* password = "10241024";
+const char* password = "" // provide;
 
 ESP8266WebServer server(80);
 String serviceName = "Sensor-Boiler-Temp";
